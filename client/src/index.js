@@ -26,7 +26,7 @@ const App = () => (
             <PublicRoute exact path={Routes.Form} component={Form} />
             <PublicRoute exact path={Routes.Confirmation} component={Confirmation} />
 
-            {/* Invalid route - default to form */}
+            {/* Invalid route - default to form. */}
             <Route component={Form} />
           </Switch>
         </Suspense>
